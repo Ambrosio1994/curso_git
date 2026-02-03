@@ -1,5 +1,5 @@
 def memory():
-    pass
+    print("Verificando a memoria do computador!")
 
 if _name__ == "__main__":
     memory()

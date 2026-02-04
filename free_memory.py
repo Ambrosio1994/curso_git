@@ -1,3 +1,5 @@
+import psutil
+
 def memory():
 	"""Retorna o uso de memoria do computador"""    
 	memory = psutil.virtual_memory()

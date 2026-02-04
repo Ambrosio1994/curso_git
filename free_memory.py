@@ -8,3 +8,5 @@ def memory():
 	print(f"Memória disponível: {memory.available / 1024**3:.2f} GB")
 	print(f"Memória usada: {memory.used / 1024**3:.2f} GB")
 
+if __name__ == '__main__':
+	memory()
